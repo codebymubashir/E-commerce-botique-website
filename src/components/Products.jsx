@@ -1,12 +1,15 @@
 import React from 'react'
-
+import dress1 from '../assets/dress1.jpeg'
+import dress2 from '../assets/dress2.jpeg'
+import dress3 from '../assets/dress3.jpeg'
+import dress5 from '../assets/dress5.jpg'
 const Products = () => {
   const products = [
-    { image: "https://i.pinimg.com/vwebp/1200x/1b/78/a8/1b78a8ea2a5e33540cf4538c37736839.webp", badge: "New", number: "01", category: 'FOOTWEAR', name: "Field Runner", price: "Rs. 12,900" },
-    { image: "https://i.pinimg.com/1200x/f6/39/7c/f6397c23bc6e8356f001491fa26b9ffa.jpg", badge: "New", number: "02", category: 'OUTWEAR', name: "Coated Overshirt", price: "Rs. 18,500" },
-    { image: "https://i.pinimg.com/1200x/8c/e1/d6/8ce1d6c3ccbc409f5868cde6f4537043.jpg", badge: "New", number: "03", category: 'FOOTWEAR', name: "Bound Lofer", price: "Rs. 14,200" },
-    { image: "https://images.unsplash.com/photo-1639006570490-79c0c53f1080?q=80&w=800&auto=format&fit=crop", badge: "New", number: "04", category: 'ACCESSORY', name: "Ledger Watch", price: "Rs. 9,800" },
-  ]
+  { image: dress1, badge: "New", number: "01", category: 'FORMAL WEAR', name: "Ivory Bloom Suit", price: "Rs. 12,900" },
+  { image: dress2, badge: "New", number: "02", category: 'FORMAL WEAR', name: "Plum Blossom Suit", price: "Rs. 18,500" },
+  { image: dress3, badge: "New", number: "03", category: 'FESTIVE WEAR', name: "Heritage Embroidered Suit", price: "Rs. 14,200" },
+  { image: dress5, badge: "New", number: "04", category: 'CASUAL WEAR', name: "Floral Trail Suit", price: "Rs. 9,800" },
+]
 
   return (
     <div className="w-full grid grid-cols-2 lg:grid-cols-4 gap-4 lg:gap-6">
